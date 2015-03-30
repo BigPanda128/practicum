@@ -1,3 +1,9 @@
+/*Ryan Postma
+ * CMP237
+ * exam 2 
+ * problem 1 in modify code
+ */
+
 var stock = "1 lemon, 2 cabbages, and 101 eggs, and 150 limes";
 function minusOne(match, amount, unit) {
   amount = Number(amount) - 1;
