@@ -1,3 +1,4 @@
+//edited reg exp so that it takes middle initial
 print(
-  "Hopper, Grace\nMcCarthy, John\nRitchie, Dennis"
-    .replace(/([\w ]+), ([\w ]+)/g, "$2 $1"));
+  "Hopper, Grace M.\nMcCarthy, John\nRitchie, Dennis"
+    .replace(/([\w ]+), ([\w ]+) ([\w ]+)g/, "$2 $3 $1"));
